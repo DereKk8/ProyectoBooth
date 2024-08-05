@@ -1,5 +1,5 @@
 void invertirCadena (string cadena){
-    std::queue<string> pila;
+    std::stack<string> pila;
     std::string palabra;
     
     for(int i = 0; i < cadena.lenght(); i++){
@@ -11,11 +11,11 @@ void invertirCadena (string cadena){
              palabra = "";
          }   
     }
-
     while(!pila.Empty()){
        string salida = pila.top()
        pila.pop();
        std:: cout << salida << " ";
     }
-
 }
+
+
