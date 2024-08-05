@@ -3,7 +3,7 @@ void invertirCadena (string cadena){
     std::string palabra;
     
     for(int i = 0; i < cadena.lenght(); i++){
-        string letra = cadena.subsrt(i)
+        string letra = cadena.subsrt[i]
         if(letra != " "){
              palabra += letra
          }else{
